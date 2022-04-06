@@ -7,7 +7,7 @@
 
   /*========== Colors ==========*/
   /* Change favorite color */
-  --hue-color: 250; /*Purple 250 - Green 142 - Blue 230 - Pink 340*/
+  --hue-color: 220; /*Purple 250 - Green 142 - Blue 230 - Pink 340*/
 
   /* HSL color mode */
   --first-color: hsl(var(--hue-color), 69%, 61%);
@@ -907,11 +907,11 @@ skills__name {
 }
 /*==================== FOOTER ====================*/
 .footer {
-  padding-top: 2rem;
+  padding-top: 1.5rem;
 }
 
 .footer__container {
-  row-gap: 3.5rem;
+  row-gap: 2rem;
 }
 
 .footer__bg {
@@ -922,6 +922,7 @@ skills__name {
 .footer__title {
   font-size: var(--h1-font-size);
   margin-bottom: var(--mb-0-25);
+  margin-left: 1rem;
 }
 
 .footer__substitle {
@@ -951,7 +952,7 @@ skills__name {
   font-size: var(--smaller-font-size);
   text-align: center;
   color: var(--text-color-light);
-  margin-top: var(--mb-3);
+  margin-top: var(--mb-1-5);
 }
 
 .footer__title,
@@ -1235,7 +1236,7 @@ skills__name {
     justify-self: flex-end;
   }
   .footer__copy {
-    margin-top: 4.5rem;
+    margin-top: 3rem;
   }
 }
 
